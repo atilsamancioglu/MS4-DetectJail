@@ -14,6 +14,7 @@
 		FCA8D0F623A158AD004534FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA8D0F523A158AD004534FE /* Assets.xcassets */; };
 		FCA8D0F923A158AD004534FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA8D0F723A158AD004534FE /* LaunchScreen.storyboard */; };
 		FCA8D0FC23A158AD004534FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA8D0FB23A158AD004534FE /* main.m */; };
+		FCA8D10423A1601F004534FE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA8D10323A1601F004534FE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FCA8D0F823A158AD004534FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA8D0FA23A158AD004534FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA8D0FB23A158AD004534FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA8D10223A1601F004534FE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FCA8D10323A1601F004534FE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FCA8D0ED23A158AB004534FE /* SceneDelegate.m */,
 				FCA8D0EF23A158AB004534FE /* ViewController.h */,
 				FCA8D0F023A158AB004534FE /* ViewController.m */,
+				FCA8D10223A1601F004534FE /* SecondViewController.h */,
+				FCA8D10323A1601F004534FE /* SecondViewController.m */,
 				FCA8D0F223A158AB004534FE /* Main.storyboard */,
 				FCA8D0F523A158AD004534FE /* Assets.xcassets */,
 				FCA8D0F723A158AD004534FE /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA8D10423A1601F004534FE /* SecondViewController.m in Sources */,
 				FCA8D0F123A158AB004534FE /* ViewController.m in Sources */,
 				FCA8D0EB23A158AB004534FE /* AppDelegate.m in Sources */,
 				FCA8D0FC23A158AD004534FE /* main.m in Sources */,
@@ -292,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH627DBA4;
 				INFOPLIST_FILE = DetectJail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH627DBA4;
 				INFOPLIST_FILE = DetectJail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
